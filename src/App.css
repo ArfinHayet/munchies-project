@@ -1,0 +1,185 @@
+:root {
+  --themeColor: #0c1712;
+  --secondColor: #f3ba00;
+}
+
+.bg-nav{
+  background-color: var(--themeColor);
+  color:white;
+}
+
+.icon{
+  margin:9px;
+  cursor:pointer;
+}
+
+.htitle{
+  font-size:70px;
+  color:white;
+}
+.stitle{
+  font-size:16px;
+  color:white;
+}
+
+.cover{
+  background-color: var(--themeColor);
+  padding: 80px;
+}
+
+.searchBox{
+  background-color:white;
+  border-radius:8px;
+  width: 380px;
+  overflow: hidden;
+}
+
+.searchBox input{
+  border: none;
+  outline:none;
+  padding: 10px;
+}
+
+.searchBox button{
+  border: none;
+  outline:none;
+  background-color:var(--secondColor);
+  width:25%;
+}
+
+.btn-group{
+  border:1px solid var(--secondColor);
+  border-radius: 8px;
+  overflow:hidden;
+}
+
+.btn-group button{
+  border:none;
+  outline: none;
+  padding:8px 30px 8px 30px;
+  background-color:white;
+  border-left:1px solid var(--secondColor);
+  color:grey;
+}
+
+.btn-group button:focus{
+  background-color:var(--secondColor);
+  color:black;
+}
+
+.btnactive{
+  background-color:var(--secondColor) !important;
+  color:black !important;
+}
+
+.midContent{
+  padding: 100px;
+  background-color:#f7f8fa;
+}
+
+
+.foodCon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items{
+  width:23%;
+  margin:8px;
+  text-align:center;
+  background-color:white;
+  border-radius: 8px;
+  overflow: hidden;
+  position:relative;
+}
+
+
+.midContent select{
+  padding: 8px;
+  width: 200px;
+  border-radius: 8px;
+  border:1px solid #929292;
+  color:#929292;
+}
+
+.ldbtn{
+  padding:8px 20px 8px 20px;
+  border:none;
+  outline:none;
+  border:1px solid var(--secondColor);
+  border-radius:8px;
+  background-color:white;
+}
+
+
+.blogContent{
+  padding: 100px;
+  background-color:white;
+}
+
+.blogContent img{
+  width: 100%;
+  margin-bottom:30px;
+  margin-top: 30px;
+}
+
+.blogCon{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogs{
+  width: 20%;
+  padding:5px;
+}
+
+.centerCon{
+  width: 60%;
+  padding:5px;
+  text-align: center;
+}
+
+.frm input{
+  width: 50%;
+  margin: 4px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.frm textarea{
+  width:100%;
+  margin: 4px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.footer{
+  background-color:#1ac073;
+}
+
+.pocket{
+  background-color:#f7f8fa;
+  padding: 2px 5px 2px 5px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+.discount{
+  background-color: var(--secondColor);
+  padding:3px;
+}
+
+.bottom{
+  border-top:1px solid white;
+  text-align:center;
+  color:white;
+  padding:8px;
+}
+
+body{
+  font-family: Questrial;
+}
+
+
